@@ -1,6 +1,6 @@
-# IndicWhisper With JAX (more faster)
+# IndicWhisper With JAX (70x faster)
 
-IndicWhisper is a state-of-the-art speech recognition model fine-tuned on Indian languages. This repository contains the code for training and evaluating the model, as well as pre-trained checkpoints for immediate use.
+IndicWhisper is a state-of-the-art speech recognition model fine-tuned on Indian languages. 
 
 ## Overview
 
@@ -24,7 +24,7 @@ IndicWhisper is a cutting-edge speech recognition model fine-tuned specifically 
 
 ## What is IndicWhisper-JAX?
 
-IndicWhisper-JAX is an optimized version of IndicWhisper, leveraging the JAX (Just Another XLA) library for high-performance computing. This enhancement significantly improves the speed and efficiency of the model, making it ideal for real-time transcription tasks. IndicWhisper-JAX maintains the same level of accuracy as the original model while offering unparalleled performance, particularly on TPUs and GPUs.
+IndicWhisper-JAX is an optimized version of IndicWhisper, leveraging the JAX  library for high-performance computing. This enhancement significantly improves the speed and efficiency of the model, making it ideal for real-time transcription tasks. IndicWhisper-JAX maintains the same level of accuracy as the original model while offering unparalleled performance, particularly on TPUs and GPUs.
 
 ## Why and How to Use it?
 
