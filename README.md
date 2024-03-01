@@ -1,6 +1,14 @@
 # IndicWhisper With JAX (70x faster)
 
-IndicWhisper is a state-of-the-art speech recognition model fine-tuned on Indian languages. 
+## What is IndicWhisper?
+
+IndicWhisper is a cutting-edge speech recognition model fine-tuned specifically for Indian languages. It boasts impressive performance on various benchmarks, outperforming other publicly available models. IndicWhisper enables accurate transcription of speech in Indian languages, facilitating tasks such as voice commands, transcription of audio files, and more.
+
+
+## What is IndicWhisper-JAX?
+
+IndicWhisper-JAX is an optimized version of IndicWhisper, leveraging the JAX  library for high-performance computing. This enhancement significantly improves the speed and efficiency of the model, making it ideal for real-time transcription tasks. IndicWhisper-JAX maintains the same level of accuracy as the original model while offering unparalleled performance, particularly on TPUs and GPUs.
+
 
 ## Overview
 
@@ -18,13 +26,6 @@ IndicWhisper achieves impressive Word Error Rates (WERs) on various benchmarks f
 | IndicWhisper  | **10.3** | **12.0**      | **11.4** | **15.0**    | **7.6**  | 12           | **26.8**  | **13.6**  |
 
 
-## What is IndicWhisper?
-
-IndicWhisper is a cutting-edge speech recognition model fine-tuned specifically for Indian languages. It boasts impressive performance on various benchmarks, outperforming other publicly available models. IndicWhisper enables accurate transcription of speech in Indian languages, facilitating tasks such as voice commands, transcription of audio files, and more.
-
-## What is IndicWhisper-JAX?
-
-IndicWhisper-JAX is an optimized version of IndicWhisper, leveraging the JAX  library for high-performance computing. This enhancement significantly improves the speed and efficiency of the model, making it ideal for real-time transcription tasks. IndicWhisper-JAX maintains the same level of accuracy as the original model while offering unparalleled performance, particularly on TPUs and GPUs.
 
 ## Why and How to Use it?
 
@@ -43,7 +44,7 @@ To use IndicWhisper-JAX in your projects, simply install the necessary dependenc
 The IndicWhisper-JAX models are hosted on Hugging Face's model hub:
 
 - [`parthiv11/indic_whisper_hi_multi_gpu`](https://huggingface.co/parthiv11/indic_whisper_hi_multi_gpu)
-- [`parthiv11/indic_whisper_nodcil`]([parthiv11](https://huggingface.co/parthiv11/indic_whisper_nodcil)
+- [`parthiv11/indic_whisper_nodcil`](https://huggingface.co/parthiv11/indic_whisper_nodcil)
 
 Feel free to explore and utilize these models for your speech recognition tasks.
 
