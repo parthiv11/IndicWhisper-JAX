@@ -25,8 +25,9 @@ IndicWhisper achieves impressive Word Error Rates (WERs) on various benchmarks f
 | Nvidia-large  | 12.7     | 14.2          | 15.7     | 21.2        | 12.2     | **11.8**     | 42.6      | 18.6      |
 | IndicWhisper  | **10.3** | **12.0**      | **11.4** | **15.0**    | **7.6**  | 12           | **26.8**  | **13.6**  |
 
-
+- For quickstat use kaggle to use IndicWhisper JAX on Kaggle.
 [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/parthiv11/indic-whisper-jax-tpu-kaggle)
+  
 ## Why and How to Use it?
 
 IndicWhisper-JAX offers several advantages over traditional speech recognition models:
@@ -38,7 +39,7 @@ IndicWhisper-JAX offers several advantages over traditional speech recognition m
 To use IndicWhisper-JAX in your projects, simply install the necessary dependencies and load the model checkpoint using the provided API. With its superior speed and accuracy, IndicWhisper-JAX empowers developers, researchers, and government agencies to leverage the power of speech recognition in Indian languages for various applications.
 
 ## Model Hosting
-[![Hugging Face ](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/parthiv11/indic_whisper_hi_multi_gpu)
+[![Hugging Face Indic Whisper JAX ](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/parthiv11/indic_whisper_hi_multi_gpu)
 
 The IndicWhisper-JAX models are hosted on Hugging Face's model hub:
 
